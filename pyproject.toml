@@ -1,0 +1,18 @@
+[project]
+name = "PySwelFlo"
+version = "0.0.1"
+authors = [
+  { name="Mesias Piere Canilandi", email="piere244@gmail.com" },
+]
+description = "Pre- and Post- Processing for SwelFlo."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pierecnlnd/{change_here}"
+Issues = "https://github.com/pierecnlnd/{change_here}/issues"
