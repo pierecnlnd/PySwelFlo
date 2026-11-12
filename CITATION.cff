@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use PySwelFlo in research, engineering analysis, or publications, please cite this software."
+type: software
+title: "PySwelFlo: Python Tools for Automating SwelFlo Geothermal Wellbore Simulations"
+authors:
+  - family-names: Canilandi
+    given-names: Mesias Piere
+repository-code: "https://github.com/pierecnlnd/PySwelFlo"
+url: "https://github.com/pierecnlnd/PySwelFlo"
+version: 0.1.0
+date-released: 2026-11-12
+license: MIT

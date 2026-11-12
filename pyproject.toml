@@ -1,18 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "PySwelFlo"
-version = "0.0.1"
-authors = [
-  { name="Mesias Piere Canilandi", email="piere244@gmail.com" },
-]
-description = "Pre- and Post- Processing for SwelFlo."
+name = "pyswelflo"
+version = "0.1.0"
+description = "Python tools for automating SwelFlo geothermal wellbore simulations."
 readme = "README.md"
-requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "Mesias Piere Canilandi" }
 ]
 
-[project.urls]
-Homepage = "https://github.com/pierecnlnd/{change_here}"
-Issues = "https://github.com/pierecnlnd/{change_here}/issues"
+keywords = [
+    "geothermal",
+    "wellbore",
+    "simulation",
+    "swelflo",
+    "reservoir-engineering"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: Microsoft :: Windows"
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "plotly",
+    "pyXSteam"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["pyswelflo"]
